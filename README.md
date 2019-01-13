@@ -1,6 +1,10 @@
 ## Grid 表格(未完成)
 
-在el-table表格的基础上添加了排序，筛选，分页等功能
+在el-table表格的基础上添加了排序，筛选，分页，请求服务端数据等功能。
+
+待完成
+优化筛选字段的传输方式
+增加导出功能
 
 ### 基础表格
 
@@ -300,11 +304,6 @@
 | showPagingTool | 是否显示分页组件 | boolean | — | false |
 | showSelModel | 是否显示表格选择框 | boolean | — | false |
 | filters | 表格搜索配置 | array | — | — |
-
-### Table Events
-| 事件名 | 说明 | 参数 |
-| ---- | ---- | ---- |
-| exportCsv | 将数据导出为`.csv`文件 | filename, original |
 
 
 ### filters 外部组件筛选配置
