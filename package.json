@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/ZYuMing/el-grid/issues"
   },
-  "homepage": "https://github.com/ZYuMing/el-grid#readme"
+  "homepage": "https://github.com/ZYuMing/el-grid#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "element-ui": "^2.4.11"
+  }
 }
