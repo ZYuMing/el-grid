@@ -301,11 +301,6 @@
 | showSelModel | 是否显示表格选择框 | boolean | — | false |
 | filters | 表格搜索配置 | array | — | — |
 
-### Table Events
-| 事件名 | 说明 | 参数 |
-| ---- | ---- | ---- |
-| exportCsv | 将数据导出为`.csv`文件 | filename, original |
-
 
 ### filters 外部组件筛选配置
 | 参数      | 说明          | 类型      | 可选值                           | 默认值  |
