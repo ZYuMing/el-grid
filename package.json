@@ -1,0 +1,23 @@
+{
+  "name": "el-grid",
+  "version": "0.0.3",
+  "description": "在el-table表格的基础上添加了排序，筛选，分页，请求服务端数据等功能，并提高属性配置的灵活性",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZYuMing/el-grid.git"
+  },
+  "keywords": [
+    "table",
+    "grid"
+  ],
+  "author": "glennzhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZYuMing/el-grid/issues"
+  },
+  "homepage": "https://github.com/ZYuMing/el-grid#readme"
+}

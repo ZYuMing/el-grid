@@ -1,4 +1,4 @@
-## Grid 表格
+## Grid 表格(未完成)
 
 在el-table表格的基础上添加了排序，筛选，分页等功能
 
@@ -313,3 +313,5 @@
 | name | 筛选字段 | string | — | — |
 | type | 筛选类型 | string | radio / checkbox / time | radio |
 | value | 筛选的关键词 | string / array / time | — | — |
+
+![el-grid](https://nodei.co/npm-dl/el-grid.png)
