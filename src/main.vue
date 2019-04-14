@@ -170,7 +170,7 @@ export default {
         },
         // 外部传入的数据
         localData(){
-            let localData = (this.tableCfg && this.tableCfg.data) || false
+            let localData = this.data
             return localData
         },
         // 表格列数据
@@ -195,6 +195,9 @@ export default {
     props: {
         config: {
             type: Object
+        },
+        data: {
+            type: Array
         }
     },
     mounted(){
