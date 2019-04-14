@@ -1,6 +1,6 @@
 {
   "name": "el-grid",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "在el-table表格的基础上添加了排序，筛选，分页，请求服务端数据等功能，并提高属性配置的灵活性",
   "main": "index.js",
   "scripts": {
