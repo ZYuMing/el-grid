@@ -8,7 +8,7 @@
 ### 参数
 | 参数			  | 说明              		| 类型      | 可选值   		| 默认值  |
 |----------		 |--------------           |---------- |------------- |-------- |
-| model          | 加载数据的方式           | String 	| local/remote | local   |
+| mode          | 加载数据的方式           | String 	| local/remote | local   |
 | url            | 服务端数据接口url        | String 	| — 			| — 	 |
 | columns        | 表格每列数据的显示配置    | Srray 	| — 			| — 	  |
 | showPagingTool | 是否显示分页组件 		| Boolean 	| — 			| false  |
@@ -84,7 +84,7 @@
             return{
                 tableCfg:{
                     pageSize: 5,
-                    model: 'local',
+                    mode: 'local',
                     url:'https://easy-mock.com/mock/5cb2c5708185550e7d51c038/example/getList',
                     columns:[
                         {
